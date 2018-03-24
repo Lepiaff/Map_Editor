@@ -1,0 +1,9 @@
+﻿  main.cpp
+d:\programmation_2018\nazaraproject\map_editor\main.cpp(68): warning C4305: 'argument' : troncation de 'double' à 'float'
+d:\programmation_2018\nazaraproject\map_editor\main.cpp(76): warning C4305: 'argument' : troncation de 'double' à 'float'
+d:\programmation_2018\nazaraproject\map_editor\main.cpp(84): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+d:\programmation_2018\nazaraproject\map_editor\main.cpp(147): warning C4244: '=' : conversion de 'float' en 'unsigned int', perte possible de données
+d:\programmation_2018\nazaraproject\map_editor\main.cpp(148): warning C4244: '=' : conversion de 'float' en 'unsigned int', perte possible de données
+d:\programmation_2018\nazaraproject\map_editor\main.cpp(159): warning C4244: '=' : conversion de 'float' en 'unsigned int', perte possible de données
+d:\programmation_2018\nazaraproject\map_editor\main.cpp(160): warning C4244: '=' : conversion de 'float' en 'unsigned int', perte possible de données
+  Map_Editor.vcxproj -> D:\Programmation_2018\NazaraProject\Debug\Map_Editor.exe

@@ -1,0 +1,36 @@
+24/03/2018 - 11:18:52: Initialized: Core
+24/03/2018 - 11:18:52: Initialized: Lua module
+24/03/2018 - 11:18:52: Initialized: Noise module
+24/03/2018 - 11:18:52: Initialized: Physics2D module
+24/03/2018 - 11:18:52: Initialized: Physics3D module
+24/03/2018 - 11:18:52: Initialized: Utility module
+24/03/2018 - 11:18:53: OpenAL version: 1.1
+24/03/2018 - 11:18:53: Initialized: Audio module
+24/03/2018 - 11:18:53: Initialized: Platform module
+24/03/2018 - 11:18:53: OpenGL version: 4.5
+24/03/2018 - 11:18:53: Initialized: Renderer module
+24/03/2018 - 11:18:53: Initialized: Graphics module
+24/03/2018 - 11:18:53: Initialized: SDK
+24/03/2018 - 11:19:07: Uninitialized: Audio module
+24/03/2018 - 11:19:07: OpenGL debug message (ID: 0x3F3):
+Sent by context: 0x0A6F6C58
+-Source: OpenGL API
+-Type: Error
+-Severity: High
+Message: glDeleteShader failed because (depending on the operation) a referenced binding point is empty; a referenced name is not the name of an object; or the given name is otherwise not valid to this operation (GL_INVALID_VALUE)
+
+24/03/2018 - 11:19:07: OpenGL debug message (ID: 0x3F3):
+Sent by context: 0x0A6F6C58
+-Source: OpenGL API
+-Type: Error
+-Severity: High
+Message: glDeleteShader failed because (depending on the operation) a referenced binding point is empty; a referenced name is not the name of an object; or the given name is otherwise not valid to this operation (GL_INVALID_VALUE)
+
+24/03/2018 - 11:19:07: Uninitialized: Graphics module
+24/03/2018 - 11:19:07: Uninitialized: Renderer module
+24/03/2018 - 11:19:07: Uninitialized: Platform module
+24/03/2018 - 11:19:07: Uninitialized: Lua module
+24/03/2018 - 11:19:07: Uninitialized: Noise module
+24/03/2018 - 11:19:07: Uninitialized: Physics2D module
+24/03/2018 - 11:19:07: Uninitialized: Physics3D module
+24/03/2018 - 11:19:07: Uninitialized: Utility module
