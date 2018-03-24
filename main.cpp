@@ -45,7 +45,7 @@ int main()
 	Ndk::World& mapWorld = application.AddWorld();
 	mapWorld.GetSystem<Ndk::RenderSystem>().SetGlobalUp(Nz::Vector3f::Down());
 	
-	//Sprite Selection
+	/*//Sprite Selection
 	Nz::SpriteRef selectionSprite = Nz::Sprite::New();
 	selectionSprite->GetMaterial()->Configure("Translucent2D");
 	Nz::Color color(220, 120, 120, 100);
@@ -53,7 +53,7 @@ int main()
 	Ndk::EntityHandle spriteEntity = tileSetWorld.CreateEntity();
 	Ndk::NodeComponent& nCompSpriteSelection = spriteEntity->AddComponent<Ndk::NodeComponent>();
 	Ndk::GraphicsComponent& gCompSpriteSelection = spriteEntity->AddComponent<Ndk::GraphicsComponent>();
-	gCompSpriteSelection.Attach(selectionSprite);
+	gCompSpriteSelection.Attach(selectionSprite);*/
 
 	//Caméras
 	///Caméra du tileSet
@@ -173,7 +173,7 @@ int main()
 			nbSelectedTiles.x = 1 + rectSelectedTiles.width - rectSelectedTiles.x;
 			nbSelectedTiles.y = 1 + rectSelectedTiles.height - rectSelectedTiles.y;
 			
-			/*if (nbSelectedTiles.x > selection.GetMapSize().x)///Si la selection est plus grande que la tileMap
+			if (nbSelectedTiles.x > selection.GetMapSize().x)///Si la selection est plus grande que la tileMap
 				nbSelectedTiles.x = selection.GetMapSize().x;/// on ramène la taille de la selection à la taille de la tileMap
 			if (nbSelectedTiles.y > selection.GetMapSize().y)
 				nbSelectedTiles.y = selection.GetMapSize().y;
@@ -186,10 +186,10 @@ int main()
 					textureRectTilesSelection.emplace_back(Nz::Rectui((x + rectSelectedTiles.x) * 32, (y + rectSelectedTiles.y) * 32, 32, 32));
 					selection.EnableTile(posTilesSelection.back(), textureRectTilesSelection.back());
 				}
-			}*/
+			}
 
-			nCompSpriteSelection.SetPosition(float(rectSelectedTiles.x) * 32.f, float(rectSelectedTiles.y) * 32.f);
-			selectionSprite->SetSize(float(nbSelectedTiles.x) * 32.f, float(nbSelectedTiles.y) * 32.f);
+			/*nCompSpriteSelection.SetPosition(float(rectSelectedTiles.x) * 32.f, float(rectSelectedTiles.y) * 32.f);
+			selectionSprite->SetSize(float(nbSelectedTiles.x) * 32.f, float(nbSelectedTiles.y) * 32.f);*/
 		}
 		else
 		{
